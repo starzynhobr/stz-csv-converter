@@ -24,7 +24,7 @@ A aplicação oferece uma interface gráfica para facilitar a conversão de arqu
     - **Run (Execução Real)**: Processa e salva os arquivos CSV convertidos no diretório de saída.
 - **Relatórios Detalhados**: Ao final do processamento, gera um relatório em formato JSON com estatísticas, avisos e uma lista de contatos "suspeitos" que podem precisar de correção manual. Um resumo também é apresentado na tela.
 
-## Como Usar
+## Como Usar (Desenvolvimento)
 
 1.  **Instale as dependências**:
     ```bash
@@ -36,22 +36,11 @@ A aplicação oferece uma interface gráfica para facilitar a conversão de arqu
     python main.py
     ```
 
-3.  **Na interface da aplicação**:
-    - **Passo 1: Importação**:
-        - Clique em "Selecionar CSV do CRM" e/ou "Selecionar CSV do Google" para escolher seus arquivos de entrada.
-        - Clique em "Selecionar Pasta de Saída" para definir onde os resultados serão salvos.
-        - Clique em "Validar Entradas" para verificar seus arquivos. A aplicação mostrará uma prévia e informações sobre os dados.
-    - **Passo 2: Regras**:
-        - Ajuste as regras de processamento conforme sua necessidade (DDI padrão, tamanho do telefone, etc.).
-        - Se necessário, mapeie manualmente as colunas do seu CSV para os campos esperados pela aplicação.
-    - **Passo 3: Execução**:
-        - Verifique os logs e o status da validação.
-        - Clique em "Iniciar Simulação" para testar suas configurações.
-        - Se a simulação ocorrer como esperado, clique em "Iniciar Execução" para gerar os arquivos finais.
-    - **Passo 4: Resultados**:
-        - Veja o resumo do processamento.
-        - Abra o diretório de saída ou o relatório JSON diretamente pelos botões na interface.
-        - Copie o resumo para a área de transferência.
+## Como Usar (Versão Executável)
+
+1.  Baixe o arquivo `.zip` da última release.
+2.  Extraia o conteúdo do arquivo em uma pasta no seu computador.
+3.  Execute o arquivo `main.exe` que está dentro da pasta `main.dist`.
 
 ## Estrutura do Projeto
 
@@ -71,6 +60,5 @@ A aplicação oferece uma interface gráfica para facilitar a conversão de arqu
     - `pages/`: As diferentes telas (páginas) da aplicação.
     - `components/`: Componentes reutilizáveis da interface.
 - `tests/`: Testes unitários para a lógica de negócio.
-- `.venv/`: Ambiente virtual do Python.
+- `dist/`: Contém os arquivos da versão compilada (executável).
 - `requirements.txt`: Dependências da aplicação.
-- `contacts.csv`: Arquivo de exemplo (não incluído no repositório).
