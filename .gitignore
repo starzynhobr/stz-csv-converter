@@ -149,3 +149,5 @@ contacts.csv
 *.lock
 saida_*.csv
 report.json
+release_summary.md
+dist/
