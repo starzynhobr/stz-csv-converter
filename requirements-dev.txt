@@ -1,1 +1,1 @@
-ftfy>=6.1
+# Dev dependencies moved to requirements.txt or no longer needed

@@ -62,3 +62,13 @@ The application provides a graphical interface to streamline CSV conversion, fea
 - `tests/`: Unit tests for business logic.
 - `dist/`: Contains the compiled version files (executable).
 - `requirements.txt`: Application dependencies.
+
+## ⚖️ Licensing (Dual Licensing)
+
+STZ CSV Converter is available under two distinct licenses:
+
+1. **Community Use (GPLv3):** Free for personal use and open-source projects. You are free to modify and distribute this software, provided that your changes remain open-source.
+
+2. **Commercial Use:** For companies wishing to integrate this conversion system or its processing logic into proprietary software, OEM distributions, or commercial interfaces.
+
+To acquire a commercial license, please contact: [starzynhobr@gmail.com]
